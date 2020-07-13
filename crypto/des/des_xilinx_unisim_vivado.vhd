@@ -22,7 +22,7 @@ entity des_vivado is
     clk : in STD_LOGIC
   );
   attribute NotValidForBitStream : boolean;
-  attribute NotValidForBitStream of des : entity is true;
+  attribute NotValidForBitStream of des_vivado : entity is true;
 end des_vivado;
 
 architecture STRUCTURE of des_vivado is
