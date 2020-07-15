@@ -45,29 +45,29 @@ entity ibex_core_vivado is
     core_sleep_o : out STD_LOGIC
   );
   attribute NotValidForBitStream : boolean;
-  attribute NotValidForBitStream of ibex_core : entity is true;
+  attribute NotValidForBitStream of ibex_core_vivado : entity is true;
   attribute DmExceptionAddr : integer;
-  attribute DmExceptionAddr of ibex_core : entity is 437323784;
+  attribute DmExceptionAddr of ibex_core_vivado : entity is 437323784;
   attribute DmHaltAddr : integer;
-  attribute DmHaltAddr of ibex_core : entity is 437323776;
+  attribute DmHaltAddr of ibex_core_vivado : entity is 437323776;
   attribute MHPMCounterNum : string;
-  attribute MHPMCounterNum of ibex_core : entity is "32'b00000000000000000000000000000000";
+  attribute MHPMCounterNum of ibex_core_vivado : entity is "32'b00000000000000000000000000000000";
   attribute MHPMCounterWidth : string;
-  attribute MHPMCounterWidth of ibex_core : entity is "32'b00000000000000000000000000101000";
+  attribute MHPMCounterWidth of ibex_core_vivado : entity is "32'b00000000000000000000000000101000";
   attribute MultiplierImplementation : string;
-  attribute MultiplierImplementation of ibex_core : entity is "fast";
+  attribute MultiplierImplementation of ibex_core_vivado : entity is "fast";
   attribute PMPEnable : string;
-  attribute PMPEnable of ibex_core : entity is "1'b0";
+  attribute PMPEnable of ibex_core_vivado : entity is "1'b0";
   attribute PMPGranularity : string;
-  attribute PMPGranularity of ibex_core : entity is "32'b00000000000000000000000000000000";
+  attribute PMPGranularity of ibex_core_vivado : entity is "32'b00000000000000000000000000000000";
   attribute PMPNumRegions : string;
-  attribute PMPNumRegions of ibex_core : entity is "32'b00000000000000000000000000000100";
+  attribute PMPNumRegions of ibex_core_vivado : entity is "32'b00000000000000000000000000000100";
   attribute PMP_NUM_CHAN : string;
-  attribute PMP_NUM_CHAN of ibex_core : entity is "32'b00000000000000000000000000000010";
+  attribute PMP_NUM_CHAN of ibex_core_vivado : entity is "32'b00000000000000000000000000000010";
   attribute RV32E : string;
-  attribute RV32E of ibex_core : entity is "1'b0";
+  attribute RV32E of ibex_core_vivado : entity is "1'b0";
   attribute RV32M : string;
-  attribute RV32M of ibex_core : entity is "1'b1";
+  attribute RV32M of ibex_core_vivado : entity is "1'b1";
 end ibex_core_vivado;
 
 architecture STRUCTURE of ibex_core_vivado is

@@ -25,22 +25,22 @@ entity present_vivado is
     ready : out STD_LOGIC
   );
   attribute NotValidForBitStream : boolean;
-  attribute NotValidForBitStream of PRESENT_vivado : entity is true;
+  attribute NotValidForBitStream of present_vivado : entity is true;
   attribute w_2 : integer;
-  attribute w_2 of PRESENT_vivado : entity is 2;
+  attribute w_2 of present_vivado : entity is 2;
   attribute w_32 : integer;
-  attribute w_32 of PRESENT_vivado : entity is 32;
+  attribute w_32 of present_vivado : entity is 32;
   attribute w_4 : integer;
-  attribute w_4 of PRESENT_vivado : entity is 4;
+  attribute w_4 of present_vivado : entity is 4;
   attribute w_5 : integer;
-  attribute w_5 of PRESENT_vivado : entity is 5;
+  attribute w_5 of present_vivado : entity is 5;
   attribute w_64 : integer;
-  attribute w_64 of PRESENT_vivado : entity is 64;
+  attribute w_64 of present_vivado : entity is 64;
   attribute w_80 : integer;
-  attribute w_80 of PRESENT_vivado : entity is 80;
-end PRESENT_vivado;
+  attribute w_80 of present_vivado : entity is 80;
+end present_vivado;
 
-architecture STRUCTURE of PRESENT_vivado is
+architecture STRUCTURE of present_vivado is
   signal \FSM_onehot_state[0]_i_1_n_0\ : STD_LOGIC;
   signal \FSM_onehot_state[1]_i_1_n_0\ : STD_LOGIC;
   signal \FSM_onehot_state[2]_i_1_n_0\ : STD_LOGIC;
